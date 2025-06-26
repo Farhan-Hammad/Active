@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Active.com</title>
+    <link rel="stylesheet" href="active.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <nav class="nav-bar">
+      <div class="sub-nav">
+        <span class="site-name">Active</span>
+
+        <ul class="nav-link">
+          <li class="nav-links nav-green-hover hide-on-mobile">Home</li>
+          <li class="nav-links nav-green-hover hide-on-mobile">About</li>
+          <li class="nav-links nav-green-hover hide-on-mobile">Services</li>
+          <li class="nav-links nav-green-hover hide-on-mobile">Portfolio</li>
+          <li class="nav-links nav-green-hover hide-on-mobile">Team</li>
+          <li class="nav-links nav-green-hover hide-on-mobile">Blog</li>
+          <li class="nav-links main-dropdown hide-on-mobile">
+            <div class="nav-green-hover">
+              <span>Dropdown </span>
+              <span><i class="fa-solid fa-angle-down"></i></span>
+            </div>
+
+            <div class="dropdown">
+              <ul class="dropdown-list">
+                <li class="dropdown-item">Decorations</li>
+                <li class="dropdown-item">Top Pictures</li>
+                <li class="dropdown-item">Top Sales</li>
+                <li class="dropdown-item">All Basics</li>
+                <li class="deep-dropdown-hover">
+                  <span class="dropdown-item"
+                    >Deep Dropdown <i class="fa-solid fa-angle-down"></i
+                  ></span>
+                  <ul class="dropdown-list sub-list">
+                    <li class="deep-dropdown-item">HD Animations</li>
+                    <li class="deep-dropdown-item">3D Projects</li>
+                    <li class="deep-dropdown-item">Custom fonts</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-links nav-green-hover hide-on-mobile">Contact</li>
+          <li onclick="showsidebar()" class="menu-lines">
+            <i class="fa-solid fa-bars menu-lines"></i>
+          </li>
+        </ul>
+      </div>
+      <ul class="side-bar">
+        <li onclick="hidesidebar()">
+          <i class="fa-solid fa-xmark"></i>
+        </li>
+        <li class="nav-links nav-green-hover">Home</li>
+        <li class="nav-links nav-green-hover">About</li>
+        <li class="nav-links nav-green-hover">Services</li>
+        <li class="nav-links nav-green-hover">Portfolio</li>
+        <li class="nav-links nav-green-hover">Team</li>
+        <li class="nav-links nav-green-hover">Blog</li>
+        <li class="nav-links main-dropdown">
+          <div class="nav-green-hover">
+            <span>Dropdown </span>
+            <span><i class="fa-solid fa-angle-down"></i></span>
+          </div>
+
+          <div class="dropdown">
+            <ul class="dropdown-list">
+              <li class="dropdown-item">Decorations</li>
+              <li class="dropdown-item">Top Pictures</li>
+              <li class="dropdown-item">Top Sales</li>
+              <li class="dropdown-item">All Basics</li>
+              <li class="deep-dropdown-hover">
+                <span class="dropdown-item"
+                  >Deep Dropdown <i class="fa-solid fa-angle-down"></i
+                ></span>
+                <ul class="dropdown-list sub-list side-deep-dropdown">
+                  <li class="deep-dropdown-item">HD Animations</li>
+                  <li class="deep-dropdown-item">3D Projects</li>
+                  <li class="deep-dropdown-item">Custom fonts</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-links nav-green-hover">Contact</li>
+      </ul>
+    </nav>
+    <header class="hero">
+      <div class="welcome">
+        <div class="left-w">
+          <p
+            style="font-weight: 100; margin-bottom: 20px"
+            class="mobile-paragraph"
+          >
+            Welcome
+          </p>
+          <h1
+            style="font-weight: 200; margin-left: 20px"
+            class="mobile-h1 welcome-left-h1"
+          >
+            Excepteur sint occaecat cupidatat non proident
+          </h1>
+          <span
+            style="
+              line-height: 1.5rem;
+              font-family: sans-serif;
+              font-weight: 100;
+              margin-left: 20px;
+            "
+            class="mobile-paragraph"
+            >Far far away, behind the word mountains, far from the
+            countriesVokalia and Consonantia, ther e live th e blind texts.
+            Separated they live in Bookmarksgrove right at the coast of the
+            Semantics, a large language ocean.</span
+          >
+          <br />
+          <a href="#" class="get-started">Get Started</a>
+        </div>
+        <div class="right-pic">
+          <img
+            src="img/hero-img.jpg"
+            alt="img"
+            height="490px"
+            width="690px"
+            class="hero-img"
+          />
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="one">
+        <div class="sub-one">
+          <div class="sub-one-rows">
+            <div class="one-left" style="padding: 0px 12px; height: 420px">
+              <span
+                style="font-weight: 200; font-size: 14px"
+                class="mobile-paragraph"
+                >Our Mission <br /><br
+              /></span>
+              <h1
+                class="mobile-h1"
+                style="font-weight: 600; font-size: 22px; color: #2d465e"
+              >
+                The Big Oxmox advised her not to do so, because there were
+                thousands. <br /><br />
+              </h1>
+              <p class="p-lite mobile-h2">
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia. It is a paradisematic country.
+              </p>
+              <p class="mobile-paragraph">
+                The Big Oxmox advised her not to do so, because there were
+                thousands of bad Commas, wild Question Marks and devious
+                Semikoli. <br /><br /><br /><br />
+              </p>
+              <a href="#">Get Started</a>
+            </div>
+            <div class="one-right" style="padding: 0px 12px">
+              <img
+                src="img/two-rings.jpg"
+                alt="rings"
+                height="450"
+                width="400px
+                "
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="two">
+        <div class="sub-two">
+          <div class="two-boxes">
+            <i
+              class="fa-regular fa-circle-dot"
+              style="font-size: 3rem; color: #34bf49; margin-bottom: 20px"
+            ></i>
+            <br /><br />
+            <span
+              class="mobile-paragraph"
+              style="font-family: inherit; font-weight: 100"
+              >Technology</span
+            >
+            <br />
+            <p
+              class="mobile-paragraph"
+              style="margin-top: 10px; font-family: inherit; font-weight: 100"
+            >
+              Separated they live in Bookmarksgrove right at the coast
+            </p>
+          </div>
+          <div class="two-boxes">
+            <i
+              class="fa-solid fa-puzzle-piece"
+              style="font-size: 3rem; color: #34bf49; margin-bottom: 20px"
+            ></i
+            ><br /><br />
+            <span
+              style="font-family: inherit; font-weight: 100"
+              class="mobile-paragraph"
+              >Technology</span
+            >
+            <br />
+            <p
+              class="mobile-paragraph"
+              style="margin-top: 10px; font-family: inherit; font-weight: 100"
+            >
+              Separated they live in Bookmarksgrove right at the coast
+            </p>
+          </div>
+          <div class="two-boxes">
+            <i
+              class="fa-solid fa-signal"
+              style="font-size: 3rem; color: #34bf49; margin-bottom: 20px"
+            ></i
+            ><br /><br />
+            <span
+              style="font-family: inherit; font-weight: 100"
+              class="mobile-paragraph"
+              >Technology</span
+            >
+            <br />
+            <p
+              class="mobile-paragraph"
+              style="margin-top: 10px; font-family: inherit; font-weight: 100"
+            >
+              Separated they live in Bookmarksgrove right at the coast
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="three">
+        <div class="sub-three">
+          <div class="three-left">
+            <img
+              class="img-hover"
+              src="img/Watch-in-hand.jpg"
+              alt="watch"
+              height="100%"
+              width="100%"
+              style="border-radius: 10px"
+            />
+          </div>
+          <div class="three-right">
+            <span
+              style="
+                font-size: 15px;
+                font-weight: 200;
+                margin: 0px 0px 10px;
+                font-family: inherit;
+              "
+              class="mobile-h2"
+              >Why Us
+            </span>
+            <h1
+              style="
+                font-size: 22px;
+                font-weight: 200;
+                margin: 0px 0px 30px;
+                font-family: inherit;
+                color: #2d465e;
+              "
+              class="mobile-h1"
+            >
+              Far far away Behind the Word Mountains
+            </h1>
+            <p
+              style="
+                font-size: 18px;
+                font-weight: 200;
+                margin: 0px 0px 16px;
+                font-family: inherit;
+              "
+            >
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia.
+            </p>
+            <p
+              style="
+                font-size: 16px;
+                font-weight: 200;
+                margin: 0px 0px 48px;
+                font-family: inherit;
+              "
+            >
+              There live the blind texts. Separated they live in Bookmarksgrove
+              right at the coast of the Semantics, a large language ocean.
+            </p>
+            <div class="counts">
+              <div class="coffee sub-count">
+                <span class="numbers mobile-paragraph">3,919</span>
+                <div class="green-line"></div>
+                <span class="mobile-paragraph">Coffee</span>
+              </div>
+              <div class="codes sub-count">
+                <span class="numbers mobile-paragraph">2,831</span>
+                <div class="green-line"></div>
+                <span class="mobile-paragraph">Codes</span>
+              </div>
+              <div class="projects sub-count">
+                <span class="numbers mobile-paragraph">1,914</span>
+                <div class="green-line"></div>
+                <span class="mobile-paragraph">Projects</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <article class="four">
+        <div class="four-top-text">
+          <p>Recent Posts</p>
+          <h1>Blog Posts</h1>
+        </div>
+        <div class="sub-four">
+          <div class="sub-four-boxes">
+            <img
+              src="img/four-white-chair.jpg"
+              alt="chair"
+              class="sub-four-boxes-img"
+            />
+            <div class="sub-four-boxes-text">
+              <span class="date">Development • July 20, 2020</span>
+              <h1>There live the blind texts they live</h1>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div class="author-info">
+                <img
+                  class="author-pic"
+                  src="img/four-first-author.jpg"
+                  alt="pix"
+                />
+                <div class="author-name">
+                  <strong> Winston Gold</strong>
+                  <span>Lead Product Designer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sub-four-boxes">
+            <img
+              src="img/four-lamp.jpg"
+              alt="chair"
+              class="sub-four-boxes-img"
+            />
+            <div class="sub-four-boxes-text">
+              <span class="date">Development • July 20, 2020</span>
+              <h1>There live the blind texts they live</h1>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div class="author-info">
+                <img
+                  class="author-pic"
+                  src="img/four-second-author.jpg"
+                  alt="pix"
+                />
+                <div class="author-name">
+                  <strong> Winston Gold</strong>
+                  <span>Lead Product Designer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sub-four-boxes">
+            <img
+              src="img/four-stairs.jpg"
+              alt="chair"
+              class="sub-four-boxes-img"
+            />
+            <div class="sub-four-boxes-text">
+              <span class="date">Development • July 20, 2020</span>
+              <h1>There live the blind texts they live</h1>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div class="author-info">
+                <img
+                  class="author-pic"
+                  src="img/four-third-author.jpg"
+                  alt="pix"
+                />
+                <div class="author-name">
+                  <strong> Winston Gold</strong>
+                  <span>Lead Product Designer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <div id="bactive"></div>
+      <section class="five">
+        <div class="five-left">
+          <a class="five-left-colems">
+            <div class="five-left-col-icon">
+              <i class="fa-regular fa-clock"></i>
+            </div>
+            <div class="five-right-col-data">
+              <h3>
+                <h3>Modern and clean design</h3>
+                <p>
+                  Far far away, behind the word mountains, far from the
+                  countries .
+                </p>
+              </h3>
+            </div>
+          </a>
+          <a class="five-left-colems">
+            <div class="five-left-col-icon">
+              <i class="fa-regular fa-clock"></i>
+            </div>
+            <div class="five-right-col-data">
+              <h3>
+                <h3>Sell Products</h3>
+                <p>
+                  Far far away, behind the word mountains, far from the
+                  countries .
+                </p>
+              </h3>
+            </div>
+          </a>
+          <a class="five-left-colems">
+            <div class="five-left-col-icon">
+              <i class="fa-regular fa-clock"></i>
+            </div>
+            <div class="five-right-col-data">
+              <h3>
+                <h3>Success Every Day</h3>
+                <p>
+                  Far far away, behind the word mountains, far from the
+                  countries .
+                </p>
+              </h3>
+            </div>
+          </a>
+          <a class="five-left-colems">
+            <div class="five-left-col-icon">
+              <i class="fa-regular fa-clock"></i>
+            </div>
+            <div class="five-right-col-data">
+              <h3>
+                <h3>Bring Ideas to Life</h3>
+                <p>
+                  Far far away, behind the word mountains, far from the
+                  countries .
+                </p>
+              </h3>
+            </div>
+          </a>
+        </div>
+        <div class="five-right">
+          <img src="img/four-lamp.jpg" alt="lamp" height="100%" width="100%" />
+        </div>
+      </section>
+      <section class="six">
+        <div class="sub-six">
+          <div class="six-left">
+            <span>Our Services</span>
+            <h1>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia
+            </h1>
+            <p class="first-p">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+            <p class="second-p">
+              Separated they live in Bookmarksgrove right at the coast of the
+              Semantics, a large language ocean.
+            </p>
+            <button class="get-started">Get started</button>
+          </div>
+          <div class="six-right">
+            <div class="services">
+              <div class="services-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <div class="services-text">
+                <h2>Square</h2>
+                <p>Separated they live in Bookmarksgrove right at the coast</p>
+              </div>
+            </div>
+            <div class="services">
+              <div class="services-icon">
+                <i class="fa-solid fa-puzzle-piece"></i>
+              </div>
+              <div class="services-text">
+                <h2>Technology</h2>
+                <p>Separated they live in Bookmarksgrove right at the coast</p>
+              </div>
+            </div>
+            <div class="services">
+              <div class="services-icon">
+                <i class="fa-solid fa-table-cells-large"></i>
+              </div>
+              <div class="services-text">
+                <h2>Brilliant Ideas</h2>
+                <p>Separated they live in Bookmarksgrove right at the coast</p>
+              </div>
+            </div>
+            <div class="services">
+              <div class="services-icon">
+                <i class="fa-solid fa-globe"></i>
+              </div>
+              <div class="services-text">
+                <h2>Blueprint</h2>
+                <p>Separated they live in Bookmarksgrove right at the coast</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="seven">
+        <div class="seven-top-text">
+          <p>Plans</p>
+          <h1>Pricing Table</h1>
+        </div>
+        <div class="sub-seven">
+          <div class="seven-boxes">
+            <div class="pricing-item">
+              <h3>Free</h3>
+              <h2><sup>$</sup>0 <span>/ month</span></h2>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li class="bottom-cut">Pharetra massa</li>
+                <li class="bottom-cut">Massa ultricies mi</li>
+              </ul>
+              <div class="btn">
+                <button class="buy-now">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="seven-boxes">
+            <div class="pricing-item">
+              <span class="Recomended">Recomended</span>
+              <h3>Business</h3>
+              <h2><sup>$</sup>19<span>/ month</span></h2>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li class="bottom-cut">Massa ultricies mi</li>
+              </ul>
+              <div class="btn">
+                <button class="buy-now business-btn">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="seven-boxes">
+            <div class="pricing-item">
+              <h3>Developer</h3>
+              <h2><sup>$</sup>29<span>/ month</span></h2>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li>Massa ultricies mi</li>
+              </ul>
+              <div class="btn">
+                <button class="buy-now">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="eight">
+        <div class="eight-top-text">
+          <p>Plans</p>
+          <h1>Frequently Asked Questions</h1>
+        </div>
+        <div class="sub-eight">
+          <button class="eight-dropdown">
+            <i class="fa-solid fa-angle-down"></i> How to download and register?
+            <div class="show-on-click">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean.
+            </div>
+          </button>
+
+          <button class="eight-dropdown">
+            <i class="fa-solid fa-angle-down"></i>
+
+            How to create your paypal account?
+            <div class="show-on-click">
+              What ipsum dolor sit amet consectetur, adipisicing elit. Eligendi
+              neque, totam iure aliquid vel doloribus quidem incidunt illum quae
+              error.
+            </div>
+          </button>
+
+          <button class="eight-dropdown">
+            <i class="fa-solid fa-angle-down"></i>
+            How to link your paypal and bank account?
+            <div class="show-on-click">
+              When she reached the first hills of the Italic Mountains, she had
+              a last view back on the skyline of her hometown Bookmarksgrove,
+              the headline of Alphabet Village and the subline of her own road,
+              the Line Lane. Pityful a rethoric question ran over her cheek,
+              then she continued her way.
+            </div>
+          </button>
+        </div>
+      </section>
+      <section class="nine">
+        <div class="nine-top-text">
+          <p>Happy Customers</p>
+          <h1>Testimonials</h1>
+        </div>
+        <div class="sub-nine">
+          <div class="nine-info">
+            <div class="nine-profile">
+              <img
+                src="img/nine-profile.jpg"
+                alt="profile"
+                height="70px"
+                width="70px"
+              />
+            </div>
+            <h2>Lukas Devlin</h2>
+            <p>
+              “There live the blind texts. Separated they live in Bookmarksgrove
+              right at the coast of the Semantics, a large language ocean.”
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <a href="#" class="bach-to-top"><i class="fa-solid fa-arrow-up"></i></a>
+    <footer class="footer">
+      <div class="sub-footer">
+        <div class="top-row">
+          <div class="boxes about">
+            <h4>About Us</h4>
+            <p>
+              There live the blind texts. Separated they live in Bookmarksgrove
+              right at the coast of the Semantics, a large language ocean.
+            </p>
+            <button class="learn-more">Learn more</button>
+          </div>
+          <div class="boxes navigation">
+            <h4>Navigation</h4>
+            <div class="ul-col">
+              <ul>
+                <li>Overview</li>
+                <li>About Us</li>
+                <li>Find Buyers</li>
+              </ul>
+              <ul>
+                <li>Overview</li>
+                <li>About Us</li>
+                <li>Services</li>
+              </ul>
+            </div>
+          </div>
+          <div class="boxes recent-posts">
+            <h4>Recent Posts</h4>
+            <span>May 3, 2020</span>
+            <p>There live the Blind Texts</p>
+            <span>May 3, 2020</span>
+            <p>Separated they live in Bookmarksgrove right</p>
+          </div>
+          <div class="boxes connect">
+            <h4>Connect</h4>
+            <ul>
+              <li><i class="fa-brands fa-facebook"></i></li>
+              <li><i class="fa-brands fa-x-twitter"></i></li>
+              <li><i class="fa-brands fa-linkedin"></i></li>
+              <li><i class="fa-brands fa-google"></i></li>
+              <li><i class="fa-regular fa-paper-plane"></i></li>
+            </ul>
+            <h4>Subscribe</h4>
+            <form>
+              <input
+                type="email"
+                placeholder="Enter Your e-mail"
+                autocomplete="email"
+              />
+              <input type="submit" />
+            </form>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>© Copyright <b>Active. </b>All Rights Reserved</p>
+          <p style="float: right">Designed by Farhan-Hammad</p>
+        </div>
+      </div>
+    </footer>
+    <script src="active.js"></script>
+  </body>
+</html>
