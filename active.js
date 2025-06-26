@@ -8,10 +8,3 @@ function showsidebar() {
  
   }
   
-
-   // Load second file 
-   fetch('bactive.html')
-          .then(response => response.text())
-          .then(data => {
-              document.getElementById('bactive').innerHTML = data;
-          });
